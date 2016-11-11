@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script data-main="js/cityWalk" src="js/lib/require.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/cityWalk.css"/>
+	</head>
+	<body>
+		<!--顶部banner-->
+		<div id="zpui-head-ad" class="zpui-head-ad">
+			<a href="#" target="_blank" class="bg"></a>
+			<span id="zpui-head-ad-close"></span>
+		</div>
+		
+		<!--顶部导航栏-->
+		<div class="q-layer-head">
+			<div class="header-inner">
+				<a href="#">
+					<img src="img/logo_116x36.png" class="logo"/>
+				</a>
+				<div class="header-nav">
+					<ul class="nav-ul">
+						<li class="nav-list"><a href="#">目的地</a></li>
+						<li class="nav-list"><a href="#">锦囊</a></li>
+						<li class="nav-list"><a href="#">行程助手</a></li>
+						<li class="nav-list">
+							<a href="#" title="穷游论坛" class="nav-span">社区
+								<span class="icon icon-jiantouxia"></span>							
+							</a>
+							<div class="q-layer q-layer-nav q-layer-arrow">
+								<ul>
+									<li class="nav-list-layer">
+										<a href="#" title="穷游论坛">
+											<span class="icon icon-luntan"></span>											
+											旅行论坛
+											<span class="icon icon-jiantouyou"></span>											
+										</a>
+										<div class="q-layer q-layer-section"></div>
+									</li>
+									<li>
+										<a href="#" title="穷游问答">
+											<span class="icon icon-wenda"></span>
+											旅行问答
+										</a>
+									</li>
+									<li>
+										<a href="#" title="JNE旅行生活美学">
+											<span class="icon icon-shenghuomeixue"></span>
+											JNE旅行生活美学
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-list"><a href="#">最世界·自由行</a></li>
+						<li class="nav-list"><a href="#">机票</a></li>
+						<li class="nav-list"><a href="#">酒店</a></li>
+						<li class="nav-list">
+							<a href="#" class="nav-span">预定
+								<span class="icon icon-jiantouxia"></span>
+							</a>
+							<div class="q-layer q-layer-nav q-layer-arrow">
+								<ul>
+									<li>
+										<a href="#" title="特价酒店">
+											<span class="icon icon-tejiajiudian"></span>
+											特价酒店
+										</a>
+									</li>
+									<li>
+										<a href="#" title="保险">
+											<span class="icon icon-baoxian"></span>
+											保险
+										</a>
+									</li>
+									<li>
+										<a href="#" title="华人旅馆">
+											<span class="icon icon-huarenlvguan"></span>
+											华人旅馆
+										</a>
+									</li>
+									<li>
+										<a href="#" title="游轮">
+											<span class="icon icon-youlun"></span>
+											游轮
+										</a>
+									</li>
+									<li>
+										<a href="#" title="租车">
+											<span class="icon icon-zuche"></span>
+											租车
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>	
+				<div class="login">
+					<div class="search-container">
+						<form action="" method="get">
+							<input type="text" name="" id="" value="" class="header-search"/>
+							<button type="submit" class="header-btn"></button>
+							<!--<input type="submit" name="" id="" value="" class="header-btn"/>-->
+						</form>						
+					</div>
+					<div class="search-histories">
+						<div class="histories-container"></div>
+						<div class="clear-histories">
+							<span class="clear">清空历史记录</span>
+						</div>
+					</div>
+					<div class="suggestcontainer"></div>
+					<div class="header-user-info">
+						<ul>
+							<li><a href="#" class="login-method qq"></a></li>
+							<li><a href="#" class="login-method sina"></a></li>
+							<li><a href="#" class="login-method wechat"></a></li>
+							<li><a href="#">注册</a></li>
+							<li><a href="#">登陆</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--顶部导航栏结束-->
+		<!--头部-->
+		<div class="city-header">
+			<div class="city-header-wrap">
+				<div class="city-header-search">
+					<div class="city-header-logo">
+						<a href="http://z.qyer.com/"></a>
+					</div>
+					<div class="city-search-container">
+						<form action="" method="get">
+							<input type="text" placeholder="搜索国家、城市、产品" class="search-text"/>
+							<input type="submit" value="" class="city-btn"/>
+						</form>
+					</div>
+					<div class="header-collect">
+						<a href="my-goods">
+							<span class="goods-bg"></span>
+							<span class="goods">我的订单</span>
+						</a>
+						<p class="a-bg"></p>
+						<a href="my-collect">
+							<span class="collect-bg"></span>
+							<span class="collect">我的收藏</span>
+						</a>
+					</div>
+				</div>
+				<div class="city-heaeder-nav">
+					<div class="city-hot-place">
+						<a href="#" class="city-hot-place-title">
+							<span id="place-title">热门目的地</span>
+							<span class="city-arrowxia"></span>
+						</a>
+						<div class="city-hot-place-category">
+							
+						</div>
+					</div>
+					<div class="city-nav">
+						<ul class="city-nav-list">
+							<li class="city-nav-item"><a href="http://z.qyer.com" class="nav-title">首页</a></li>
+							<li class="city-nav-item"><a href="http://z.qyer.com/package/" class="nav-title">机酒自由行</a></li>
+							<li class="city-nav-item"><a href="http://z.qyer.com/local/" class="nav-title">城市玩乐</a></li>
+							<li class="city-nav-item"><a href="http://z.qyer.com/visa/" class="nav-title">签证</a></li>
+							<li class="city-nav-item"><a href="http://z.qyer.com/car/" class="nav-title">租车</a></li>
+							<li class="city-nav-item"><a href="http://z.qyer.com/all_0_0_0_0_158,148_0_0/?_channel=freetour" class="nav-title">邮轮</a></li>
+							<li class="city-nav-item"><a href="http://z.qyer.com/island/" class="nav-title">海岛游</a></li>
+							<li class="city-nav-item"><a href="http://z.qyer.com/sales/" class="nav-title">限时特卖</a></li>
+							<li class="city-nav-item"><a href="http://z.qyer.com/zt/leadertour/" class="nav-title">特色路线</a></li>
+							<li class="city-nav-item"><a href="http://z.qyer.com/citywalk/" class="nav-title">CityWalk</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--banner-->
+		<div class="city-banner"></div>		
+		<!--城市筛选-->
+		<div class="city-select">
+			<div class="city-category">
+				<div class="goalcity">所在城市</div>
+				<ul class="select-list">
+					<li class="select-item"><a href="#">全部</a></li>
+					<li class="select-item"><a href="#">上海</a></li>
+					<li class="select-item"><a href="#">北京</a></li>
+					<li class="select-item"><a href="#">京都</a></li>
+					<li class="select-item"><a href="#">广州</a></li>
+					<li class="select-item"><a href="#">东京</a></li>
+					<li class="select-item"><a href="#">布拉格</a></li>
+					<li class="select-item"><a href="#">巴塞罗那</a></li>
+					<li class="select-item"><a href="#">纽约</a></li>
+					<li class="select-item"><a href="#">巴黎</a></li>
+					<li class="select-item"><a href="#">汉堡</a></li>
+					<li class="select-item"><a href="#">马德里</a></li>
+					<li class="select-item"><a href="#">米兰</a></li>
+					<li class="select-item"><a href="#">佛罗伦萨</a></li>
+					<li class="select-item"><a href="#">台北</a></li>
+					<li class="select-item"><a href="#">香港</a></li>
+					<li class="select-item"><a href="#">博洛尼亚</a></li>
+					<li class="select-item"><a href="#">伦敦</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--排序-->
+		<div class="paixucontainer">
+			<div class="paixu">
+				<div class="allpaixu ">
+					<a href="#" class="pai">综合排序</a>
+				</div>
+				<div class="xiaoliang">
+					<a href="#" class="pai">销量<span class="arrow-down">↓</span></a>
+				</div>
+				<div class="todaynew">
+					<!--<input type="checkbox" name="" id="" value="" />-->
+					<label for=""></label>
+					<a href="#" class="pai">今日新品</a>
+				</div>
+				
+			</div>
+		</div>
+		<!--产品-->
+		<div class="products">
+			<!--<div class="product-list">
+				<a href="#" class="pro-link">
+					<img src="img/c420x280.jpg"/>	
+				</a>
+				<div class="product-desc">
+					<div class="pro-info">
+						<span class="pro-place">京都</span>
+						<div class="browerinfo">
+							<span class="browernum num">12345</span>次浏览
+							<span class="buynum num">234</span>件已售
+						</div>
+					</div>
+					<h2 class="pro-title"><a href="#">【最世界一日游】将军之道—京都绝景之旅（含米其林午餐）仅限10周岁以上参加</a></h2>
+					<div class="pro-infolist">
+						<div class="pro-infoitem"><span class="star"></span>听惊心动魄的日本战国故事</div>
+						<div class="pro-infoitem"><span class="star"></span>品米其林餐厅会席料理</div>
+						<div class="pro-infoitem"><span class="star"></span>从东山最佳角度俯瞰京都</div>
+					</div>
+					<div class="pro-price">
+						<span class="oldprice">1232元</span>
+						<span class="newprice">1000</span>
+						元起
+					</div>
+					<div class="timebuy">
+						<a href="#" class="buy">立即订购</a>
+					</div>
+				</div>
+			</div>-->
+		</div>
+			
+			
+		<!--页面底部-->
+		<iframe src="html/footer.html" frameborder="no" scrolling="no"></iframe>
+	</body>
+</html>

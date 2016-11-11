@@ -1,0 +1,155 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	/*box-sizing: border-box;*/
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:none;
+	display: block;
+}
+ul,ol,li{
+	list-style: none;
+}
+body{
+	margin: 0 auto;
+	font-size: 12px;
+	height: 2000px;
+	font-family: "微软雅黑";
+}
+
+
+/*公共页脚*/
+.foot1 {
+	min-width: 1160px;
+    background-color: #f5f5f5;
+}
+.zpui-footer-nav-wrap {
+	text-align: center;
+	margin-left: 210px;
+	overflow: hidden;
+	padding-top: 30px;
+}
+.zpui-footer-nav-item {
+	float: left;
+	font-size: 18px;
+	background: url(../img/foot-bg1.gif) no-repeat right;
+}
+.zpui-footer-nav-item:last-of-type {
+	background-image: none;
+}
+.zpui-footer-nav-item a {
+	color: #575757;
+	padding: 0 30px;
+}
+.zpui-footer-nav-item a:hover {
+    color: #12af7e;
+	text-decoration: underline;
+}
+.promise {
+	text-align: center;
+	overflow: hidden;
+	margin-left: 210px;
+	padding: 60px 0 50px 0;
+}
+.promise .pro-item {
+	float: left;
+	width: 405px;
+}
+.promise .pro-item img {
+	float: left;
+	margin-right: 18px;
+}
+.promise .pro-item .pro-right {
+	text-align: left;
+	float: left;
+	width: 275px;
+}
+.pro-right h3 {
+	font-size: 15px;
+	line-height: 20px;
+}
+.pro-right p {
+	font-size: 11px;
+	line-height: 18px;
+	color: #959595;
+}
+
+/*页脚2*/
+.footer2 {
+	min-width: 1160px;
+	background-color: #333;
+	padding: 48px 0;
+	font-size: 14px;
+}
+.foot2-wrap {
+	margin: 0 auto;
+	width: 1160px;
+	color: #c0c0c0;
+}
+.foot2-wrap a {
+	color: #c0c0c0;
+}
+.free {
+	overflow: hidden;
+	padding-bottom: 46px;
+}
+.free>img{
+	float: left;
+	margin-right: 25px;
+}
+.word {
+	float: left;
+	width: 538px;
+	margin-right: 102px;
+}
+.word,.foot-line li {
+	line-height: 26px;
+}
+.about div{
+	float: left;
+}
+.abouttitle {
+	margin-right: 10px;
+    font-size: 18px;
+    line-height: 48px;
+    color: #ececec;
+}
+.call {
+	width: 48px;
+	height: 48px;
+    border: 1px solid #959595;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.call img {
+	display: block;
+	padding: 9px 0 0 8px;
+}
+.foot-line {
+	line-height: 26px;	
+}
+.foot-line .foot-link {
+	overflow: hidden;
+}
+.foot-line .foot-link li {
+	float: left;
+	padding: 0 18px;
+	background: url(../img/foot2-bg.gif) no-repeat right;
+}
+.foot-line .foot-link li:first-of-type {
+	padding-left: 0;
+}
+.foot-line .foot-link li:last-of-type {
+	background: none;
+}
+.foot-line a:hover {
+	text-decoration: underline;
+}
+.firendlink a {
+	margin-right: 10px;
+}
